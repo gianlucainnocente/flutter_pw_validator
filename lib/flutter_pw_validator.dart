@@ -201,6 +201,8 @@ class FlutterPwValidatorState extends State<FlutterPwValidator> {
                     value = widget.normalCharCount;
                   if (entry.key == widget.translatedStrings.uppercaseLetters)
                     value = widget.uppercaseCharCount;
+                  if (entry.key == widget.translatedStrings.lowercaseLetters)
+                    value = widget.lowercaseCharCount;
                   if (entry.key == widget.translatedStrings.numericCharacters)
                     value = widget.numericCharCount;
                   if (entry.key == widget.translatedStrings.specialCharacters)
