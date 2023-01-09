@@ -146,6 +146,7 @@ class FlutterPwValidatorState extends State<FlutterPwValidator> {
         widget.minLength,
         widget.normalCharCount,
         widget.uppercaseCharCount,
+        widget.lowercaseCharCount,
         widget.numericCharCount,
         widget.specialCharCount);
 
